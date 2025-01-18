@@ -9,14 +9,15 @@ If not there check path if not downloaded : https://download.oracle.com/java/23/
 PROCESS:
 1.	Open Eclipse IDE -> File -> New -> Other -> Maven Project -> Add Achetype -> 
 2.	Archetype Group Id and Archetype Artifact Id = project name 
-3.	Under workspace directory locate to pom.xml and add the following code before the closing tag of project (</project>): 
-<dependencies>
+3.	Under workspace directory locate to pom.xml and add the following code before the closing tag of project : 
+**<dependencies>
   	<dependency>
   		<groupId>org.mongodb</groupId>
   		<artifactId>mongo-java-driver</artifactId>
   		<version>3.8.1</version>
   	</dependency>
-  </dependencies>
+  </dependencies>*
+  
 4.	Locate to src/main/java and and create a new class by right clicking on it 
 5.	Paste the source code
 6.	Open MongoDB folder in ProgramFiles of C Drive and locate to “C:\Program Files\MongoDB\Server\8.0\bin”
