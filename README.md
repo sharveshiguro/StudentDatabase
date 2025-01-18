@@ -3,9 +3,9 @@ Java project with MongoDB to store student information with image
 DOWNLOADS REQUIRED:
 1.Java Installation: 
 Check in cmd line: java -version
-If not there check path if not downloaded : [https://download.oracle.com/java/23/latest/jdk-23_linux-aarch64_bin.tar.gz](url)
-2.MongoDB Server Installation: Community server for MongoDB [https://www.mongodb.com/try/download/community](url)
-3.Eclipse IDE Installation: [https://www.eclipse.org/downloads/packages](url)
+If not there check path if not downloaded : https://download.oracle.com/java/23/latest/jdk-23_windows-x64_bin.zip
+2.MongoDB Server Installation: Community server for MongoDB https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.4-signed.msi
+3.Eclipse IDE Installation: https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2024-12/R/eclipse-inst-jre-win64.exe&mirror_id=1287
 PROCESS:
 1.	Open Eclipse IDE -> File -> New -> Other -> Maven Project -> Add Achetype -> 
 2.	Archetype Group Id and Archetype Artifact Id = project name 
